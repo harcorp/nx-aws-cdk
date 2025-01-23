@@ -2,7 +2,7 @@ import { GeneratorCallback, Tree, runTasksInSerial } from '@nx/devkit';
 import { runCdkCommand } from '../../utils/shell';
 import { BootstrapGeneratorSchema } from './schema';
 import initGenerator from '../init/init';
-import { buildCdkGenericCommand } from 'src/utils/cdkCommandBuilder';
+import { buildCdkGenericCommand } from '../../utils/cdkCommandBuilder';
 
 export async function bootstrapGenerator(
   tree: Tree,
