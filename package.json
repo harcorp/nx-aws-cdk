@@ -1,6 +1,6 @@
 {
   "name": "@nx-iac/aws-cdk",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Empowers your Nx workspace with AWS CDK capabilities ⚡",
   "keywords": [
     "nx",
