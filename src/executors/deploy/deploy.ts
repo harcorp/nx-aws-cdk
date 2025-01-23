@@ -2,7 +2,7 @@ import { ExecutorContext } from '@nx/devkit';
 import { join } from 'node:path';
 import { runCdkCommand } from '../../utils/shell';
 import { DeployExecutorSchema } from './schema';
-import buildCdkProjectCommand from '../../utils/cdkCommandBuilder';
+import { buildCdkProjectCommand } from '../../utils/cdkCommandBuilder';
 
 export async function deployExecutor(
   options: DeployExecutorSchema,

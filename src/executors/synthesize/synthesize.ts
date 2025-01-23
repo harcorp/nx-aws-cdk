@@ -3,7 +3,7 @@ import { rmSync } from 'node:fs';
 import { runCdkCommand } from '../../utils/shell';
 import { SynthesizeExecutorSchema } from './schema';
 import { join } from 'node:path';
-import buildCdkProjectCommand from '../../utils/cdkCommandBuilder';
+import { buildCdkProjectCommand } from '../../utils/cdkCommandBuilder';
 
 export async function synthesizeExecutor(
   options: SynthesizeExecutorSchema,
