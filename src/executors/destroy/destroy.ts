@@ -2,7 +2,7 @@ import { ExecutorContext } from '@nx/devkit';
 import { runCdkCommand } from '../../utils/shell';
 import { DestroyExecutorSchema } from './schema';
 import { join } from 'node:path';
-import { buildCdkProjectCommand } from '../../utils/cdkCommandBuilder';
+import buildCdkProjectCommand from '../../utils/cdkCommandBuilder';
 
 export async function destroyExecutor(
   options: DestroyExecutorSchema,

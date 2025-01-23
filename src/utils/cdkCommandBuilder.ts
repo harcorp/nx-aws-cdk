@@ -36,7 +36,7 @@ interface BuildCdkProjectCommandRequest {
   };
 }
 
-export function buildCdkProjectCommand(
+export default function buildCdkProjectCommand(
   request: BuildCdkProjectCommandRequest
 ): string {
   const { projectRoot, command, args } = request;
