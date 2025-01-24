@@ -30,9 +30,7 @@ async function normalizeOptions(
       name: options.name,
       projectType: 'application',
       directory: options.directory,
-      projectNameAndRootFormat: options.projectNameAndRootFormat,
       rootProject: false,
-      callingGenerator: '@nx-iac/aws-cdk:app',
     }
   );
 
